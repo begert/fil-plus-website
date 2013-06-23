@@ -9,6 +9,13 @@
       .carousel img {
         min-width: 100%;
       }
+      .carousel-caption {
+        font-size: 120%;
+        font-weight: normal;
+      }
+      .nav li {
+        margin-top: 5px;
+      }
   </style>
 </head>
 <body>
@@ -24,15 +31,17 @@
             <span class="icon-bar"></span>
           </button>
           <div class="nav-collapse collapse">
-            <a class="brand" href="home.php">fp</a>
+            <a class="brand" href="index.php"><img src="img/logo-mini.png"></a>
             <ul class="nav">
-              <li><a href="page1.php">Aktuell</a></li>
-              <li><a href="#">Sortiment</a></li>
-              <li><a href="#">&Uuml;ber uns</a></li>
+              <li><a href="aktuell.php">Aktuell</a></li>
+              <li><a href="sortiment.php">Sortiment</a></li>
+              <li><a href="dienstleistungen.php">Dienstleistungen</a></li>
+              <li><a href="team.php">Team</a></li>
+              <li><a href="kontakt.php">Kontakt</a></li>
             </ul>
-            <form class="navbar-search pull-right">
+            <!--form class="navbar-search pull-right">
               <input type="text" class="search-query" placeholder="Suche">
-            </form>
+            </form-->
           </div><!--/.nav-collapse -->
 
         </div>
