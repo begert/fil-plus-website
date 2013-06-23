@@ -28,7 +28,7 @@
                 <a href="team.php">
                   <img src="img/slide3.jpg" alt="">
                   <div class="carousel-caption">
-                    <p>seit 12 Jahren fachgerechte, kompetente und pers&ouml;nliche Beratung</p>
+                    <p>Seit 12 Jahren fachgerechte, kompetente und pers&ouml;nliche Beratung</p>
                   </div>
                 </a>
               </div>
