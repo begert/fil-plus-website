@@ -1,3 +1,9 @@
+<?php
+
+session_start();
+$php_self = $_SERVER['PHP_SELF'];
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
