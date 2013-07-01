@@ -1,4 +1,3 @@
-
         </div>
 
         <div class="span2">
@@ -11,13 +10,13 @@
             <br>
             034 445 15 73
             <br><br>
-            Montag<br> 
-            <strong>geschlossen</strong><br>
+            Montag<br>
+            geschlossen<br>
             Di-Fr<br>
-            <strong>08:30 - 12:00</strong><br>
-            <strong>13:30 - 18:00</strong><br>
+            08:30 - 12:00<br>
+            13:30 - 18:00<br>
             Sa<br>
-            <strong>8:30 - 15:00</strong>
+            08:30 - 15:00<br>
           </p>
         </div>
       </div>
