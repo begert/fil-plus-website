@@ -8,7 +8,7 @@
             </ol>
             <!-- Carousel items -->
             <div class="carousel-inner">
-			  <div class="item">
+              <div class="item">
                 <a href="team.php">
                   <img src="img/slide3.jpg" alt="">
                   <div class="carousel-caption">
