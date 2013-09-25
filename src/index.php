@@ -34,20 +34,10 @@
               </div>
             </div>
             <!-- Carousel nav -->
-            <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-            <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+            <a class="carousel-control left" href="#myCarousel" data-slide="prev">&nbsp;</a>
+            <a class="carousel-control right" href="#myCarousel" data-slide="next">&nbsp;</a>
           </div>
 
-          <script src="js/jquery.min.js"></script>
-          <script src="js/bootstrap.min.js"></script>
-          <script>
-              !function ($) {
-                $(function(){
-                  // carousel demo
-                  $('#myCarousel').carousel()
-                })
-              }(window.jQuery)
-          </script>
 
 <?php include 'footer.inc.php' ?>
 
