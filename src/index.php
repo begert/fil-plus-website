@@ -8,34 +8,37 @@
             </ol>
             <!-- Carousel items -->
             <div class="carousel-inner">
-              <div class="item">
-                <a href="team.php">
-                  <img src="img/slide3.jpg" alt="">
-                  <div class="carousel-caption">
-                    <p>Seit 12 Jahren fachgerechte, kompetente und pers&ouml;nliche Beratung</p>
-                  </div>
-                </a>
-              </div>
               <div class="active item">
-                <a href="sortiment.php">
-                  <img src="img/slide1.jpg" alt="">
-                  <div class="carousel-caption">
-                    <p>Nachtw&auml;sche, Unterw&auml;sche, Miederware, Strickgarn ...</p>
-                  </div>
-                </a>
+                <img src="img/slide3.jpg" alt="">
+                <div class="carousel-caption">
+                  <p>
+                    Seit 12 Jahren fachgerechte, kompetente und pers&ouml;nliche Beratung 
+                    <br><a href="team.php">mehr...</a>
+                  </p>
+                </div>
               </div>
               <div class="item">
-                <a href="dienstleistungen.php">
-                  <img src="img/slide2.jpg" alt="">
-                  <div class="carousel-caption">
-                    <p>Strickanleitungen, &Auml;nderungen nach Mass und Wunsch</p>
-                  </div>
-                </a>
+                <img src="img/slide1.jpg" alt="">
+                <div class="carousel-caption">
+                  <p>
+                    Nachtw&auml;sche, Unterw&auml;sche, Miederware, Strickgarn ... 
+                    <br><a href="sortiment.php">mehr...</a>
+                  </p>
+                </div>
+              </div>
+              <div class="item">
+                <img src="img/slide2.jpg" alt="">
+                <div class="carousel-caption">
+                  <p>
+                    Strickanleitungen, &Auml;nderungen nach Mass und Wunsch 
+                    <br><a href="dienstleistungen.php">mehr...</a>
+                  </p>
+                </div>
               </div>
             </div>
             <!-- Carousel nav -->
-            <a class="carousel-control left" href="#myCarousel" data-slide="prev">&nbsp;</a>
-            <a class="carousel-control right" href="#myCarousel" data-slide="next">&nbsp;</a>
+            <a class="carousel-control left" href="#myCarousel" data-slide="prev"><span class="icon-prev"></span></a>
+            <a class="carousel-control right" href="#myCarousel" data-slide="next"><span class="icon-next"></span></a>
           </div>
 
 

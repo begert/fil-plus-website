@@ -11,7 +11,7 @@ $php_self = $_SERVER['PHP_SELF'];
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-  <style type="text/css">
+   <style type="text/css">
       .navbar-brand {
         background: url(img/logo-mini.png) no-repeat center center;
         height: 50px;
@@ -26,9 +26,14 @@ $php_self = $_SERVER['PHP_SELF'];
       .carousel img {
         min-width: 100%;
       }
-      .carousel-caption {
-        font-size: 120%;
-        font-weight: normal;
+      .carousel-caption p {
+        background-color: rgba(19,65,136,0.8); 
+        border-radius: 10px;
+        padding: 20px;
+      }
+      .carousel-caption a,a:hover,a:visited {
+        color: white;
+        text-decoration: none;
       }
   </style>
 </head>
