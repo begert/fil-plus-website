@@ -2,7 +2,12 @@
 
           <h1>Sortiment</h1>
           <h3>Nachtw&auml;sche</h3>
-          <p>LOGOS: Calida, Schiesser, Nanso, Triumph</p>
+          <ul class="list-inline">
+              <li><img src="img/calida.png"></li>
+              <li><img src="img/schiesser.jpg"></li>
+              <li><img src="img/nanso.png"></li>
+              <li><img src="img/triumph.gif"></li>
+          </ul>
           <p>Damen-, Herren- und Kindernachtw&auml;sche vom Nachthemd bis zum Pyjama.</p>
 
           <h3>Tagw&auml;sche</h3>
