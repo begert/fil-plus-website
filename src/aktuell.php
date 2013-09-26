@@ -7,6 +7,6 @@
           	 (Stark reduzierte Restposten aus der Sommerkollektion)</p>
 
           <h3>Nachtw&auml;sche / Unterw&auml;sche <small>19.9.2013</small></h3>
-          <p>Auswahl der Herbst- / Winter-Saison ist im Moment sehr gross.</p>
+          <p>Die Auswahl der Herbst- und Winter-Saison ist im Moment sehr gross!</p>
 
 <?php include 'footer.inc.php' ?>

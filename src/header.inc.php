@@ -8,10 +8,14 @@ $php_self = $_SERVER['PHP_SELF'];
 <html>
 <head>
   <title>fil-plus</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
    <style type="text/css">
+      body {
+        font-size: 170%;
+      }
       .navbar-brand {
         background: url(img/logo-mini.png) no-repeat center center;
         height: 50px;
@@ -19,6 +23,12 @@ $php_self = $_SERVER['PHP_SELF'];
       }
       .team-bild img {
         max-width: 100%;
+      }
+      .logos-sortiment {
+        margin-left: 25px;
+      }
+      .logos-sortiment img {
+        height: 40px;
       }
       .logo-side {
         max-width: 100%;
@@ -68,5 +78,5 @@ $php_self = $_SERVER['PHP_SELF'];
   <div class="container">
       
     <div class="row">
-      <div class="content-col col-md-10">
+      <div class="content-col col-md-10 col-sm-9">
 

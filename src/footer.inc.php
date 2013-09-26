@@ -1,6 +1,6 @@
       </div><!-- content col -->
 
-      <div class="col-md-2">
+      <div class="col-md-2 col-sm-3">
         <p style="text-align:center;">
           <img src="img/logo.png" alt="fil-plus Logo" class="logo-side">
           <br><br>
