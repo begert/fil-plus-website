@@ -33,9 +33,9 @@ if( isset($_POST['nameInput']) || isset($_POST['emailInput']) || isset($_POST['m
         $subject = "Anfrage von ".$name;
         // email content
         $content = '<strong>Name:</strong> '.$name.'<br>
-        			<strong>E-mail:</strong> '.$email.'<br>
-        			<strong>Telefon:</strong> '.$tel.'<br>
-        			<strong>Anfrage:</strong><br><pre>'.$message.'</pre><br>';
+                    <strong>E-mail:</strong> '.$email.'<br>
+                    <strong>Telefon:</strong> '.$tel.'<br>
+                    <strong>Anfrage:</strong><br><pre>'.$message.'</pre><br>';
         // html email
         $email_content = '<!doctype html><head><meta charset="utf-8"><title>'.$subject.'</title>';
         $email_content .= '</head><body>';

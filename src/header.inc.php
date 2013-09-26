@@ -34,7 +34,7 @@ $php_self = $_SERVER['PHP_SELF'];
         border-radius: 10px;
         padding: 20px;
       }
-      .carousel-caption a,a:hover,a:visited {
+      .carousel-caption a, .carousel-caption a:hover, .carousel-aption a:visited {
         color: white;
         text-decoration: none;
       }
