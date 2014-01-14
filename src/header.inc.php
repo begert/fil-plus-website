@@ -14,6 +14,7 @@ $php_self = $_SERVER['PHP_SELF'];
   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
    <style type="text/css">
       body {
+        font-family: "Open Sans", Calibri, Candara, Arial, sans-serif;
         font-size: 170%;
       }
       .navbar-brand {
