@@ -1,5 +1,5 @@
 <?php
-
+date_default_timezone_set('Europe/Zurich');
 session_start();
 $php_self = $_SERVER['PHP_SELF'];
 
@@ -12,11 +12,12 @@ $php_self = $_SERVER['PHP_SELF'];
   <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
   <link rel="icon" href="../favicon.ico" type="image/x-icon">
   <link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
-   <style type="text/css">
+  <style type="text/css">
       body {
         font-size: 170%;
       }
   </style>
+  <script src="../js/jquery.min.js"></script>
 </head>
 <body>
 
