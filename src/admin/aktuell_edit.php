@@ -1,9 +1,10 @@
 <?php
-$db = new SQLite3('db.db');
+include_once("params.inc.php");
+$db = new mysqli($db_host, $db_user, $db_pw, $db_name);
 
 if(isset($_POST["delete"])) {
-    $stmt = $db->prepare("delete from news where id=:id");
-    $stmt->bindValue("id", $_GET["edit"]);
+    $stmt = $db->prepare("delete from news where id=?");
+    $stmt->bind_param("i", $_GET["edit"]);
     $stmt->execute();
     header("Location: aktuell_list.php");
     die();
@@ -12,10 +13,11 @@ if(isset($_POST["delete"])) {
 $formaction = $php_self;
 if(isset($_GET["edit"])) {
     $edit = $_GET["edit"];
-    $stmt = $db->prepare("select title, text from news where id=:id");
-    $stmt->bindValue("id", $edit);
-    $result = $stmt->execute();
-    $row = $result->fetchArray();
+    $stmt = $db->prepare("select title, text from news where id=?");
+    $stmt->bind_param("i", $edit);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    $row = $result->fetch_assoc();
     $title = $row["title"];
     $message = $row["text"];
     $formaction .= "?edit=$edit";
@@ -25,16 +27,15 @@ if(isset($_POST["save"])) {
     $title = $_POST["titleInput"];
     $message = $_POST["messageInput"];
     if(isset($edit)) {
-        $stmt = $db->prepare("update news set title=:title, text=:text where id=:id");
-        $stmt->bindValue("id", $edit);
+        $stmt = $db->prepare("update news set title=?, text=? where id=?");
+        $stmt->bind_param("ssi", $title, $message, $edit);
     } else {
-        $stmt = $db->prepare("insert into news (title, text, date) values(:title, :text, datetime('now','localtime'))");
+        $stmt = $db->prepare("insert into news (title, text, date) values(?, ?, current_timestamp)");
+        $stmt->bind_param("ss", $title, $message);
     }
-    $stmt->bindValue("title", $title);
-    $stmt->bindValue("text", $message); 
     $stmt->execute();
     if(!isset($edit)) {
-        $edit=$db->lastInsertRowID();
+        $edit=$db->insert_id;
         $formaction .= "?edit=$edit";
     }
     header("Location: aktuell_list.php");
