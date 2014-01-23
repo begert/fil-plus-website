@@ -13,10 +13,10 @@ if(isset($_POST["delete"])) {
 $formaction = $php_self;
 if(isset($_GET["edit"])) {
     $edit = $_GET["edit"];
-    $stmt = $db->prepare("select title, text from news where id=?");
-    $stmt->bind_param("i", $edit);
-    $stmt->execute();
-    $result = $stmt->get_result();
+    //don't use prepare, because provider does not understand mysqli_stmt::get_result()
+    //see http://stackoverflow.com/questions/10466530/mysqli-prepared-statement-unable-to-get-result
+    //TODO: maybe change to PDO...
+    $result = $db->query("select title, text from news where id=".$edit);
     $row = $result->fetch_assoc();
     $title = $row["title"];
     $message = $row["text"];
