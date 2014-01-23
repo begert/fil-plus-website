@@ -1,12 +1,18 @@
-<?php include 'header.inc.php' ?>
+<?php include 'header.inc.php';
+include_once("admin/params.inc.php");
+$db = new mysqli($db_host, $db_user, $db_pw, $db_name);
+?>
 
           <h1>Aktuell</h1>
 
-          <h3>Neue Strickgarne <small>19.9.2013</small></h3>
-          <p>Die neuen Strickgarne und Hefte f&uuml;r Herbst / Winter sind eingetroffen.<br>
-          	 (Stark reduzierte Restposten aus der Sommerkollektion)</p>
-
-          <h3>Nachtw&auml;sche / Unterw&auml;sche <small>19.9.2013</small></h3>
-          <p>Die Auswahl der Herbst- und Winter-Saison ist im Moment sehr gross!</p>
+          <?php 
+          $results = $db->query('select * from news order by date desc');
+          while ($row = $results->fetch_assoc()) {
+          ?>  
+          <h3><?=$row["title"]?> <small><?=date_format(date_create($row["date"]),"j.n.Y")?></small></h3> 
+          <p><?=str_replace("\n","<br>",$row["text"])?></p>
+          <?php
+          }   
+          ?>  
 
 <?php include 'footer.inc.php' ?>

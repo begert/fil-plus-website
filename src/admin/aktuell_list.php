@@ -5,6 +5,8 @@ $db = new mysqli($db_host, $db_user, $db_pw, $db_name);
 ?>
 <h1>Aktuell</h1>
 
+<button id="new" class="btn btn-lg btn-primary">Eintrag hinzuf&uuml;gen</button>
+<br><br>
 <div class="list-group">
     <?php 
     $results = $db->query('select * from news order by date desc');
@@ -18,8 +20,6 @@ $db = new mysqli($db_host, $db_user, $db_pw, $db_name);
     }   
     ?>  
 </div>
-
-<button id="new" class="btn btn-lg btn-primary">Eintrag hinzuf&uuml;gen</button>
 
 <script>
     $('button#new').click(function(event) {

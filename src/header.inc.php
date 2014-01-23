@@ -1,5 +1,5 @@
 <?php
-
+date_default_timezone_set('Europe/Zurich');
 session_start();
 $php_self = $_SERVER['PHP_SELF'];
 
