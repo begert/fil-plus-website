@@ -21,7 +21,7 @@
 
           <h3>BH's / Dessous / Miederwaren</h3>
           <p>Auch in speziellen Gr&ouml;ssen.</p>
-          <ul class="list-inline logos-sortiment col-xs-1">
+          <ul class="list-inline logos-sortiment">
             <li><img src="img/logos/felina.png"></li>
             <li><img src="img/logos/triumph.png"></li>
             <li><img src="img/logos/rosafaia.png"></li>
