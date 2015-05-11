@@ -6,15 +6,17 @@
 
           <p>Unsere motivierten Teilzeitmitarbeiterinnen:</p>
 
-	  <div class="row">
-	    <p class="col-md-3 col-sm-6 team-bild"><img src="img/hostettler.jpg"><br>Elsbeth Hostettler</p>
-	    <p class="col-md-3 col-sm-6 team-bild"><img src="img/huber.jpg"><br>Ruth Huber</p>
-	    <p class="col-md-3 col-sm-6 team-bild"><img src="img/niederhauser.jpg"><br>Therese Niederhauser</p>
-	    <p class="col-md-3 col-sm-6 team-bild"><img src="img/wenger.jpg"><br>Therese Wenger</p>
-	  </div>
+          <ul>
+            <li>Elsbeth Hostettler</li>
+            <li>Therese Niederhauser</li>
+            <li>Therese Wenger</li>
+            <li>Doris Kaderli</li>
+          </ul>
 
-	  <div class="row">
-	    <p class="col-md-3 col-sm-6 team-bild"><img src="img/begert.jpg"><br>Marianne Begert<br>Gesch&auml;ftsf&uuml;hrerin</p>
-	  </div>
+          <p>Gesch&auml;ftsf&uuml;hrerin</p>
+    
+          <ul>
+            <li>Marianne Begert </li>
+          </ul>
 
 <?php include 'footer.inc.php' ?>

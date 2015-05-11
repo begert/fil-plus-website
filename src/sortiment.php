@@ -19,21 +19,23 @@
             <li><img src="img/logos/ninavonc.png"></li>
           </ul>
 
-          <h3>BH's / Miederwaren</h3>
+          <h3>BH's / Dessous / Miederwaren</h3>
           <p>Auch in speziellen Gr&ouml;ssen.</p>
-          <ul class="list-inline logos-sortiment">
+          <ul class="list-inline logos-sortiment col-xs-1">
             <li><img src="img/logos/felina.png"></li>
             <li><img src="img/logos/triumph.png"></li>
             <li><img src="img/logos/rosafaia.png"></li>
+            <li><img src="img/logos/anita.png"></li>
             <li><img src="img/logos/lingadore.png"></li>
             <li><img src="img/logos/unusual.png"></li>
           </ul>
 
-          <h3>Strickgarn</h3>
+          <h3>Strickgarne</h3>
           <p>In vielen Farben und Qualit&auml;ten mit Anleitungen. F&uuml;r Anf&auml;nger und Profi-Stricker und Strickerinnen.</p>
           <ul class="list-inline logos-sortiment">
             <li><img src="img/logos/lang.png"></li>
-            <li>Sommer</li>
+            <li><img src="img/logos/sommer.jpg"></li>
+            <li><img src="img/logos/austermann.jpg"></li>
             <li><img src="img/logos/katia.png"></li>
             <li><img src="img/logos/regia.png"></li>
           </ul>

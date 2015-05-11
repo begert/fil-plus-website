@@ -22,9 +22,6 @@ $php_self = $_SERVER['PHP_SELF'];
         height: 50px;
         width: 50px;
       }
-      .team-bild img {
-        max-width: 100%;
-      }
       .logos-sortiment {
         margin-left: 25px;
       }
