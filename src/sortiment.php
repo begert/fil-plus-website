@@ -34,6 +34,7 @@
           <p>In vielen Farben und Qualit&auml;ten mit Anleitungen. F&uuml;r Anf&auml;nger und Profi-Stricker und Strickerinnen.</p>
           <ul class="list-inline logos-sortiment">
             <li><img src="img/logos/lang.png"></li>
+            <li><img src="img/logos/rowan.jpg"></li>
             <li><img src="img/logos/sommer.jpg"></li>
             <li><img src="img/logos/austermann.jpg"></li>
             <li><img src="img/logos/katia.png"></li>
