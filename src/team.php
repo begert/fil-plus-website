@@ -8,9 +8,9 @@
 
           <ul>
             <li>Elsbeth Hostettler</li>
-            <li>Therese Niederhauser</li>
             <li>Therese Wenger</li>
             <li>Doris Kaderli</li>
+            <li>Rahel Kunz</li>
           </ul>
 
           <p>Gesch&auml;ftsf&uuml;hrerin</p>
