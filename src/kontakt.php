@@ -21,7 +21,7 @@ if( isset($_POST['nameInput']) || isset($_POST['emailInput']) || isset($_POST['m
     // message
     if( $message == "" ){ $error .= 'message missing!<br>'; }
     // captcha
-    if( $captcha == "" || $captcha != $_SESSION['captcha']){ $error .= "Schlecht im Kopfrechnen? Versuchen Sie's nochmal!<br>"; }
+    if( $captcha == "" || $captcha != $_SESSION['captcha']){ $error .= "Sicherheitsfrage falsch! Versuchen Sie's nochmal!<br>"; }
  
     // no error, send email
     if( $error == ""){              
@@ -58,7 +58,7 @@ if( isset($_POST['nameInput']) || isset($_POST['emailInput']) || isset($_POST['m
 // captcha
 $num = rand(1, 20);
 $num2 = rand(1, 9);    
-$verif = "Sicherheitsfrage: Wieviel ergibt $num und $num2?";
+$verif = "Anti-Spam Aufgabe: Wieviel ergibt $num und $num2?";
 $_SESSION['captcha'] = $num + $num2;     
  
 if( $mail_sent == 1 ) {
