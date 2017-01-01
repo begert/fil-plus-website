@@ -16,7 +16,6 @@
           <ul class="list-inline logos-sortiment">
             <li><img src="img/logos/calida.png"></li>
             <li><img src="img/logos/schiesser.png"></li>
-            <li><img src="img/logos/ninavonc.png"></li>
           </ul>
 
           <h3>BH's / Dessous / Miederwaren</h3>
@@ -27,7 +26,6 @@
             <li><img src="img/logos/rosafaia.png"></li>
             <li><img src="img/logos/anita.png"></li>
             <li><img src="img/logos/lingadore.png"></li>
-            <li><img src="img/logos/unusual.png"></li>
           </ul>
 
           <h3>Strickgarne</h3>
