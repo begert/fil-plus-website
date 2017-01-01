@@ -10,12 +10,12 @@
 	  <br>
           034 445 15 73<br>
 	  <br>
-          Montag<br>
-          geschlossen<br>
-          Di-Fr<br>
+          <strong>Mo / Mi</strong><br>
+          <span class="text-primary">geschlossen</span><br>
+          <strong>Di / Do / Fr</strong><br>
           08:30 - 12:00<br>
           13:30 - 18:00<br>
-          Sa<br>
+          <strong>Sa</strong><br>
           08:30 - 15:00<br>
           <br>
 	  <a href="https://maps.google.ch/maps?q=Hauptstrasse+13,+Kirchberg&hl=de&sll=47.011125,7.485515&sspn=0.047697,0.105915&hnear=Hauptstrasse+13,+3422+Kirchberg,+Bern&t=m&z=16" target="_blank">Karte anzeigen</a><br>
