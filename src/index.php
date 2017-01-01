@@ -12,7 +12,7 @@
                 <img src="img/slide3.jpg" alt="">
                 <div class="carousel-caption">
                   <p>
-                    Seit 12 Jahren fachgerechte, kompetente und pers&ouml;nliche Beratung 
+                    Seit 15 Jahren fachgerechte, kompetente und pers&ouml;nliche Beratung 
                     <br><a href="team.php">mehr...</a>
                   </p>
                 </div>
