@@ -8,7 +8,6 @@
 
           <ul>
             <li>Elsbeth Hostettler</li>
-            <li>Therese Wenger</li>
             <li>Doris Kaderli</li>
             <li>Rahel Kunz</li>
           </ul>
